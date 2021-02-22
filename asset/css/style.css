@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #358597;
+  font-family: 'Raleway';
+ }
+
+
+ h1{
+  text-align: center;
+}
+ body {
+  width: 100vw;
+  min-height: 100vh;
+  background-image:url('/asset/images/cherry.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway';
+ }
+
+  header {
+   padding: 10px 15px;
+   box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+   background-color: #F4A896;
+   color: #358597;
+  }
+  
+  main {
+   flex: 1 1 100%;
+   padding: 20px 15px;
+   
+   }
+   
+
+   input {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-bottom: 3px solid #795C34;
+    color: #000000;
+    font-size: 18px;
+   }
+   
+
+    
+    p {
+     color: #432616;;
+     font-size: 18px;
+     margin-bottom: 15px;
+    }
+    
+  
+  
+   button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: #F4A896;
+    color: #358597;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+   }
+  
+
+   .calculator{
+    background: #ffffffad;
+   }
+
+
+   .tip-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .tip {
+    padding: 15px 25px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(240, 248, 255, 0.719);
+    color: #432616;
+   }
+  
