@@ -13,7 +13,7 @@
  body {
   width: 100vw;
   min-height: 100vh;
-  background-image:url('asset/images/cherry.jpg');
+  background-image:url('../images/cherry.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
